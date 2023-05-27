@@ -23,7 +23,4 @@ export const useGlobalContext = () => {
 
 }
 
-
-
-
 export default DataProvider;

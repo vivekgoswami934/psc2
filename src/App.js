@@ -1,6 +1,6 @@
 import './App.css';
+import Parent from './app/Component/Parent';
 import UseMEMO from './app/Component/UseMEMO';
-import ShowData from './app/ShowData';
 import DataProvider from './context/DataProvider';
 
 function App() {
@@ -9,7 +9,10 @@ function App() {
         <div className="App">
 
           {/* <ShowData /> */}
-          <UseMEMO />
+          {/* <UseMEMO />
+           */}
+
+           <Parent />
           
         </div>
     </DataProvider>
